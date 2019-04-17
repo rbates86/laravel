@@ -3,9 +3,9 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-import App from './views/App'
-import contactus from './views/contactus'
-import Home from './views/Home'
+import App from './components/App'
+import Contactus from './components/Contactus'
+import Home from './components/Home'
 
 const router = new VueRouter({
     mode: 'history',
